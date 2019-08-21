@@ -1,11 +1,3 @@
-# var = [20.5, 'hello',[true, false]]
-# puts var[2]
-
-# var1=['hi','hello','how','are','you']
-# puts var1[5]   
-
-# var1[5]=[1,2]
-# puts var1[5]
 
 # var2 = [2,3,4,5]
 # puts var2.sort
@@ -28,13 +20,9 @@ puts "I like " + loc + "!"
 puts "Don't you?"
 end
 
-def pararray
-    10.times do |num|
-    square = num*num
-    return num, square if num>5
-end
-end
 
-num,square = pararray
-puts num
-puts square
+var5 = Array.new(3,true)
+puts var5
+
+var6 = Array.new(3){Hash.new}
+puts var6
