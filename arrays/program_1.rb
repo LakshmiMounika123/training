@@ -7,22 +7,26 @@
 
 # variable loc refers to each item in the array as it goes through the loop 
 
-var3 =['hi','hello','how','are','you']
+# var3 =['hi','hello','how','are','you']
 
-var3.each do |loc|
-puts loc
+# var3.each do |loc|
+# puts loc
+# # puts "Don't you?"
+# end
+
+# var3.delete('hello')
+# var3.each do |loc|
+# puts "I like " + loc + "!"
 # puts "Don't you?"
-end
-
-var3.delete('hello')
-var3.each do |loc|
-puts "I like " + loc + "!"
-puts "Don't you?"
-end
+# end
 
 
-var5 = Array.new(3,true)
-puts var5
+# var5 = Array.new(3,true)
+# puts var5
 
-var6 = Array.new(3){Hash.new}
-puts var6
+# var6 = Array.new(3){Hash.new}
+# puts var6
+
+first_array = ["hi","hello"]
+second_array = Array.new(first_array)
+puts first_array.equal? second_array
