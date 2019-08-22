@@ -20,3 +20,7 @@ a = ["a", nil, "b", nil, "c" ]
 puts a.compact! #=> [ "a", "b", "c" ]
 puts a
 # puts a.compact!           #=> nil
+
+c = ["a", "b", "c"]
+# c.cycle { |x| puts x }     # print, a, b, c, a, b, c,.. forever.
+c.cycle(2) { |x| puts x } 
