@@ -12,3 +12,11 @@ puts square = nums.each { |num| num ** 2 }
 # simply put 'Projects each element of a sequence into a new form'
 
 puts square = nums.collect { |num| num ** 2 }
+
+# compact method
+a = ["a", nil, "b", nil, "c" ]
+# puts a.compact
+# puts a
+puts a.compact! #=> [ "a", "b", "c" ]
+puts a
+# puts a.compact!           #=> nil
