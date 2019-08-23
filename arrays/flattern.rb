@@ -17,6 +17,7 @@ print b.flatten(3)
 c= [1,2,3,[4,5],[6,[7,[8,9]]]]
 # print c.flatten!
 # print c
+
 print c.flatten!(1)
 print c.flatten!(2)
 # print c.flatten!(0)
