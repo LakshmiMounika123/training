@@ -10,8 +10,8 @@ class Bird
     
   class Penguin < Bird    #doubth
     def fly  
-    super
-      puts "Sorry. I'd rather swim."  
+      puts "Sorry. I'd rather swim."
+      super()
     end  
   end  
     

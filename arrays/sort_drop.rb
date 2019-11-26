@@ -17,3 +17,13 @@ d = %w{ a b c d e f }
 # puts d.values_at(1, 3, 5, 7)       # => ["b", "d", "f", nil]
 # puts d.values_at(-1, -2, -2, -7)   # => ["f", "e", "e", nil]
 puts d.values_at(4..6, 2...6)      # => ["e", "f", nil, "d", "e", "f"]
+
+
+# class S  
+#     def m  
+#       puts 'Class S and method m:'  
+#       puts self  
+#     end  
+#   end  
+#   s = S.new  
+#   s.m  
